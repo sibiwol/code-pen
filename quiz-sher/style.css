@@ -42,6 +42,9 @@ body {
   border-bottom: 4px solid black;
   animation: 1s linear infinite blink_effect;
 }
+.blink:focus {
+  animation: stop;
+}
 
 .warning {
   position: relative;
